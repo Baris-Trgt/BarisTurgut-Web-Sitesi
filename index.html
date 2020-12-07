@@ -1,0 +1,120 @@
+<html>
+        <head>
+        
+        <title> Stephen Hawking </title>    <!-- açılan pencerenin başlığı     -->
+        
+          <link rel="stylesheet" href="css\style.css">     <!-- index.html sayfasından style.css a bağlantı kurdum   -->
+            <!-- harici bir stil sayfası -->        <!--href ile bağlantı yapılacak yeri belirledim(adresini)-->
+           <!--    diğer bir yol da  yeni dosya açarak style.css açabiliriz  -->
+        </head>
+           
+    <body>
+        <hr class="makale" style="border-style:solid; size: 5px; position:absolute;">    <!--   makale kısının en üstüne (sayfanın en üstüne  cizgi çektim )
+                                                                                                ve 5 px olarak atadım posizyonu direk web sayfasına göre konumlandırdım.  -->
+           
+
+          
+
+                         <!--           LOGO VE SLOGAN KISMI               -->
+      
+             <table>  <!--     tablo etiketi kullandım.Tablo oluşturdum -->
+               
+            <tr align="left">     <!-- sola tanımladım (resimle bağlantılı) = tablo kısmını,satırını -->
+   <td><section id="gorsel"><img src="images\Stephen_Hawking.StarChild.jpg" height="260" width="auto" alt="Stephen Hawking" style="border-style: solid; border-width: 1px; margin-left: 15px;"/></td></section>
+   <!-- table etiketinden sonra tr ile resmin satırını sola tanımladım.td etiketi ile sütun içeriğini doldurdum.section ile bölümün id(kimliğini)  gorsel olarak atadım  
+        img ile resmi ekledim src ile resmi nereden alması gerektğini belirttim,yüksekliğini 260 genişliğini oto yaptım.alt etiketi ekledim resmin üzerine fareyi getirince resmin adını belirtsin diye
+        border-style: solid = border ile tablonun çevrisine çizgi ekledim(sınırlandırdım) ve border-width: ile kalınlığını 1px olarak atadım . margin-left ile de resmi dış boşluk olarak sol kenar boşluğunu 15px yaptım. -->
+                
+   <td><p  class="quote"><b>Sessiz insanlar en gürültülü zihinlere sahiptir.</b></p><p class="imza">Stephan Hawking</p></td>
+            </tr></table>
+       <!-- açık olan table etiketinden devam ettim tekrar td içine de  p (paragraf) etiketi açtım  p etiketine class atadım ve class a quote(alıntı) dedim
+            ( Stephen_Hawking in sözünü yazdığım için )   sözden öncede sözü belirginleştirmek içinde  b etiketi ile sözü kalınlaştırdım . 
+             sonra gene p etiketi ile kullanarak p ye class atıyarak class a imza dedim sözün sahibini belirtmek için  --> 
+                  
+            <!--quote ile tüm yazı tipini,rengini,boyutunu(font-size),yazının kalınlığını(font-weight) style.css de belirttim -->
+
+
+
+                      
+                                       <!--          MENÜ VE ANA BÖLÜM KISMI            -->
+
+
+
+
+              
+            <div class="yanmenu" align="left">  <!-- div class ile bütün aşağıda belittiğim ögelerin solda olması  istedim ve 
+                bunların geneline yanmenu ismini kullnadım . style.css bölümünde belirttim içeriğinin nasıl olması gerektiğini  -->
+                <h1>MENÜ</h1>        <!--   h etiketi ile başlık ekledim ve bunu h1 olarak yaptım . h1 in özelliklerini style.css de belirttim -->
+                <hr style="border-style:solid;">    <!-- hr ile MENÜ kısmının altına çizgi çizdim  -->
+                <a href="#hayati">• HAYATI</a></br>      <!-- a etiketi ile hayatı kısmına link atadım ve bağlantı yapılacak yeri belirledim br etiketi ile alt satıra geçtim     -->
+                <a href="#hastalik">• HASTALIĞI</a></br> <!-- a etiketi ile hastalığı kısmına link atadım bağlantı yapılacak yeri belirledim br etiketi ile alt satıra geçtim      -->
+                <a href="#olumu">• ÖLÜMÜ</a></br></br>   <!-- a etiketi ile  ölümü kısmına link atadım bağlantı yapılacak yeri belirledim br etiketi ile alt satıra geçtim        -->
+                <a href="#gorsel"> >> YUKARI DÖN << </a></br> <!-- a etiketi ile yukarı dön kısmına link atadım bağlantı yapılacak yeri belirledim br etiketi ile alt satıra geçtim      -->
+            </div>
+    
+    <div class="makale" align="left">      <!--div class ile makale kısmının sola yaslamasını istedim-->  
+                                           <!-- makale kısmının özelliklerini style.css kısmında belirttim .   -->
+     <hr style="border-style:solid; size:5px;">    <!-- makle kısmının üstünde hr etiketi kullanarak ve ona style ekleyerek  çizgi çektim ve kalınlığını 5px olarak atadım   -->
+        
+    <section id="hayati"><h2>HAYATI</h2>     <!-- section(bölüm) atadım ve id(kimliğine)  hayati olarak belirttim . h etiketi ile başlık tanımladım adına HAYATI dedim büyüklüğünü h2 olarak ayarladım.
+                                                  h2 nin  özellklirini style.css de belirttim.  -->
+                    <!-- section etiketini sayfada HAYATI kısmına ulaşmak daha kolay olsun diye kullandım.
+                         section etiketini kullanınca sayfada benzeri linklere ihtiyaç duymadan geçilebilinsin diye kullandım. -->  
+                    <!--MENÜ kısmında HAYATI  linkine basınca sayfada stephen hawking in hayatı karşımıza gelecektir.-->                               
+      
+       <br>          <!--   alt satıra geçmek için kullandım  --> 
+                    <!-- her cümlede paragraf (p) etiketi ve yazıyı kalınlaştırmak için de bold (b) etiketi kullandım    -->             
+        <p><b>Hawking 8 Ocak 1942 yılında hayata gözlerini açmıştır. 8 yaşındayken Londra'dan 20 mil uzaktaki St Albans'a gitti. 11 yaşında St Albans okuluna kayıt oldu. İleride, "Size ilham veren bir öğretmeniniz oldu mu?" sorusuna, St Albans'ta öğretmeni olan Dikran Tahta'dan söz ederek cevap verecekti.</b></p>
+        <p><b>Hawking St Albans Okulu'ndan mezun olduktan sonra babasının eski okulu Oxford Üniversitesi kolejine devam etti. Babası onun tıp okumasını istiyordu, ancak o matematiği seviyordu. Fakat okulun matematik bölümü mevcut değildi. Bu yüzden onun yerine fizik öğrenimi görmeye başladı. Üç yıl sonra doğa bilimlerinde birinci sınıf onur madalyasıyla ödüllendirildi.</b></p>
+        <p><b>Hawking daha sonra kozmoloji (evrenbilim) üzerine çalışmak üzere Cambridge'e gitti. O zamanlar Oxford'da evren bilimi üzerine çalışma yoktu. Cambridge'de danışman olarak Fred Hoyle'u istemesine karşın Dennis Sciama atanmıştı. Doktorasını aldıktan sonra ilk önce araştırma asistanı, daha sonra Gonville and Caius College'da doçent oldu. 1973'te Gökbilim Enstitüsünden ayrılarak Uygulamalı matematik ve Kuramsal fizik bölümüne geçti. 1979'dan sonra matematik bölümünde Lucasian matematik profesörü oldu. Bu profesörlük 1663 yılında üniversite parlamento üyesi olan Henry Lucas tarafından kurulmuştu. İlk olarak Isaac Barrow sonra 1669'da Isaac Newton'a verilmişti.</b></p>
+        <p><b>Hawking evrenin temel ilkeleri üzerine çalıştı. Roger Penrose ile birlikte Einstein'ın Uzay ve Zamanı kapsayan Genel Görelilik Kuramının, Big Bang'le başlayıp karadeliklerle sonlandığını gösterdi. Bu sonuç Kuantum mekaniği ile Genel Görelilik Kuramı'nın birleştirilmesi gerektiğini ortaya koyuyordu. Bu yirminci yüzyılın ikinci yarısının en büyük buluşlarından biriydi. Bu birleşmenin bir sonucu da karadeliklerin aslında tamamen kara olmadığını, fakat radyasyon yayıp buharlaştıklarını ve görünmez olduklarını ortaya koyuyordu. Diğer bir sonuç da evrenin bir sonu ve sınırı olduğuydu. Bu da evrenin başlangıcının tamamen bilimsel kurallar çerçevesinde meydana geldiği anlamına geliyordu.</b></p>
+        <p><b>Stephen Hawking kuantum fiziği ve kara deliklerle ilgili iddialarıyla, bugün yaşayan bilim insanları arasında dünyada en çok tanınan isimdir. Kitapları, 40 dile çevrildi; evrenle ilgili çılgın teorik bilgilerini popüler hale getirmek için gereken maddi bağımsızlığı sağlayacak ve Cambridge Üniversitesi'ndeki uygulamalı matematik ve teorik fizik laboratuvarını geliştirecek kadar da sattı. Hawking, hastalığıyla gizemli bir kişilik oluşturmaktadır. Son kitabı “Ceviz Kabuğundaki Evren”de, dünyanın büyük bir felaket ile karşı karşıya kalabileceğini belirterek uzayda insan kolonileri kurulmasını gündeme getirmişti. Bir fenomen haline gelen ve milyonlarca satan “Zamanın Kısa Tarihi: Büyük Patlamadan Karadeliklere” kitabı, Hawking'e asıl şöhreti getirmişti. İlk kitabının yayımlanmasından bu yana gerçekleşen önemli buluşların ardındaki sırrı açığa çıkaran “Ceviz Kabuğundaki Evren”, “Zamanın Kısa Tarihi”nin bir devamı sayılabilir. Yeni kitabıyla yazar, bizleri çoğu kez gerçeklerin kurmacadan daha şaşırtıcı olduğu teorik fiziğin en üst noktalarına çıkarıyor ve evrenin temel ilkelerine dair anlaşılır yorumlarda bulunuyor. Görelilik kuramından zaman yolculuğuna, süper kütleçekiminden Süpersimetriye, kuantum teorisinden M-Kuramı’na ve bütünsel beyin algılanımına kadar evrenin bilinen en kışkırtıcı sırlarına kapı aralayan kitap, Einstein’ın “Genel Görelilik Kuramı” ile Richard Feynman'ın çoklu geçmiş düşüncesini birleştirerek evrende olup bitenleri tanımlayabilecek eksiksiz ve tek bir teori geliştirmeye çalışıyor. Okur, kitabı bir bilimsel eser olarak algılayabileceği gibi, rahatlıkla bir bilim–kurgu romanı gibi de değerlendirebilir. Hawking'in “karmaşık önermeleri günlük yaşamdan çekip aldığı analojilerle resmetme becerisi” buna imkân tanımaktadır. 2012'de “Büyük Tasarım” adlı kitabını da çıkartmıştır. Kitaplarında genellikle bir "Yaratan"ın varlığını reddeden Stephen Hawking, Her Şeyin Teorisi (Birleştirilmiş Alan Kuramı)’ne ulaşıldığı zaman, kainatın yaratım sürecinde, ‘Tanrı’ kavramına ihtiyaç olmadığını da net bir dille ifade eder.</b></p>
+        <p><b>Stephen Hawking, Einstein’dan bu yana dünyaya gelen en parlak teorik fizikçi olarak kabul edilmektedir. 12 onur derecesi almıştır. 1982'de CBE ile ödüllendirilmiş, bundan başka birçok madalya ve ödül almıştır. Royal Society'nin ve National Academy of Sciences (Amerikan Ulusal Bilimler Akademisi) üyesidir.</b></p>
+    </section>
+                   
+        <br>     <!-- alt sartıra geçsin diye kullandım-->
+        
+        
+
+    <section id="hastalik"><h2>HASTALIĞI</h2>   <!-- section(bölüm) atadım id(kimliğine) hastalik dedim ve h etiketi ile başlık tanımladım ,adına HASTALIĞI dedim büyüklüğünü h2 olarak ayarladım . -->
+                                                <!--   h2 nin  özellklirini style.css de belirttim --> 
+        
+      <!-- aynı şekiilde gene section(bölüm,bölümlendirmek,bölmek)'a kimlik atadım kimliğe hastalik dedim çünkü yanmenu ksımında link olarak atadım ve buna bağlı olarak da yanmenu de 
+           belirttiğim HASTALIĞI kısmına basınca direk sayfa içinde  stephan hawking'in  hastalığı çıkmatadır. -->
+           <!--  section etiketi ile sayfa içinde kolaylıkla gezinti yapılabilmektedir.                 -->
+      
+        <br>               <!-- alt sartıra geçsin diye kullandım-->
+        <p><b>Stephen Hawking, amyotrofik lateral skleroz (ALS) hastalığının nadir görülen, erken kendini gösterip yavaş ilerleyen bir formundan muzdaripti. Bu hastalığın teşhisi 1963'te, Hawking 21 yaşındayken konuldu; doktorları tarafından Hawking'e iki yıllık ömür biçildi. Motor nöronların zamanla yüzde seksenini öldürerek sinir sistemini felç eden; ancak beynin zihinsel faaliyetlerine dokunmayan bu hastalık, Hawking'i tekerlekli sandalyede yaşamaya mahkûm etti. 1970'lerin sonlarında konuşma yetisi gittikçe de zayıflamaya başladı, bu dönemde sadece en yakınları tarafından anlaşılan Hawking'in dış dünyayla iletişimini dediklerini dinleyip tekrarlayan yakınları sağlamaktaydı.</b></p>
+        <br>
+        <p><b>1985'te CERN'i ziyaret ederken zatürre kaptı. Bu nedenle nefes borusuna delik açılması gerekti ve sesini tamamen yitirdi.1986'dan itibaren koltuğuna yerleştirilmiş, yazıları sese dönüştürebilen bilgisayarı sayesinde insanlarla iletişim kurabildi.Bilimsel uğraşlarında ve günlük yaşantısında çevresinden ve ailesinden destek aldı. </b></p>
+        <br>
+        <p><b>Konuşmak istediği anda, elindeki elektronik aleti sıkarak, sandalyesine bağlı özel bilgisayarının ekranına, dakikada ortalama 10 kelimeyi sıralayabilmekteydi. Bilgisayarının hafızasında yaklaşık 2600 kelime bulunmaktadır. </b></p>
+        <br>
+        <p><b>Böylece herhangi bir kelimeyi söylemek istediğinde ekrana yazabilmekteydi. Sağlıklı insanların konuşmalarında kullandığı kelime sayısı da 2500 civarındadır. Dolayısıyla Hawking, duygularını ifade etmede kelime sıkıntısı çekmemekteydi.2005'te el kaslarını hareket etme yetisini kaybetmesiyle yanağındaki kasları kullanarak kelime seçmeye başladı.</b></p>
+        </section>
+                           <!--paragraf (p) etiketi kullandım her cümlede ve bold (b) yazıyı kalınlaştırmak içinde etiketini kullandım -->
+         <br> <br> <br>   <!-- alt sartıra geçsin diye kullandım ( 1den fazla kullandım daha çok boşluk yaratmak için  )-->
+
+         <section id="olumu"><h2>ÖLÜMÜ</h2>    <!-- section(bölüm) atadım id(kimliğine) olumu dedim ve h etiketi ile başlık tanımladım . Adına ÖLÜMÜ  dedim büyüklüğünü h2 olarak ayarladım          -->
+                                               <!--   h2 nin  özellklirini style.css de belirttim -->
+                        
+            <!-- section'nın kimliğini olumu olarak atamıştım çünkü yukarıda yenmenu kısmında link olarak atamıştım ve karşılığına ÖLÜMÜ demiştim 
+                 bu sayede MENÜ kısmında yer alan ÖLÜMÜ linkine tıklayınca direk bizi   Stephan Hawking'in ÖLÜMÜ bölümüne götürmektedir. -->
+            
+            <br>          <!-- alt sartıra geçsin diye kullandım-->                            
+             <p><b>4 Mart 2018 tarihinde sabaha karşı, Cambridge, İngiltere'deki evinde 76 yaşında hayatını kaybetti.
+             Ailesi ölüm sebebini açıkladı, "huzur içinde öldü" açıklamasını yaptı.</b></p>  
+              <!--  paragraf(p) etiketi kullandım ve bold(b) yazıyı kalınlaştırmak içinde etiketlerini kullandım     -->
+              <!-- section etiketi bölümlendirmeyi sağladığı için sayfa içinde rahat bir şekilde hareket etmemizi sağlamaktadır. -->
+              <br> 
+               <!-- alt sartıra geçsin diye kullandım-->
+            <p><b>Stephen Hawking'in henüz 21 yaşındayken yakalandığı ve tedavisi olmayan ALS hastalığı yüzünden öldüğü düşünülmektedir.
+            </b></p>  <!-- paragraf(p) etiketi kullandım ve bold(b) yazıyı kalınlaştırmak içinde etiketlerini kullandım  -->
+        <img src="images\stephen-hawking-cenaze.jpg" height="300" width="auto" alt="Stephen Hawking Cenaze" style="border-style: solid; border-width: 1px;"/>
+       <!--  img ile resmi ekledim src ile resmi nereden alması gerektğini belirttim yüksekliğini 300 genişliğini auto yaptım alt  etiketi ekledim resmin üzerine fareyi getirince resmin adını belirtsin diye
+          sonra style ekledim  border-style: solid = border ile tablonun çevrisine çizgi ekledim ve border-width:1px  ile kalınlığını 1px olarak atadım   -->
+        </section>
+            <br><br>
+        </div>
+    </body>
+</html>
